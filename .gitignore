@@ -4,14 +4,14 @@
 *.pyc
 
 
-# Datasets
-data/openmiir
-!data/openmiir/.gitkeep
-data/openneuro
-data/openneuro/.gitkeep
+# Datasets  
+/data/openmiir/*
+!/data/openmiir/.gitkeep
 
+/data/openneuro/*
+!/data/openneuro/.gitkeep
 
-# Processed data
+# Processed data  
 omiir_all_preprocessed.fif
 omiir_music.npy
 ONR_MUSIC.npy
