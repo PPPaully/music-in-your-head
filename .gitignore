@@ -1,0 +1,21 @@
+.ipynb_checkpoints
+
+# Pycache
+*.pyc
+
+
+# Datasets
+data/openmiir
+!data/openmiir/.gitkeep
+data/openneuro
+data/openneuro/.gitkeep
+
+
+# Processed data
+omiir_all_preprocessed.fif
+omiir_music.npy
+ONR_MUSIC.npy
+
+
+# Model
+*.pt
